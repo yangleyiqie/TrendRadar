@@ -129,3 +129,25 @@ platforms:
     name: "搜狐新闻"
   - id: "netease"
     name: "网易新闻"
+
+  # 审计监察专属源
+  - id: "ccdi"  # 中央纪委国家监委
+    name: "中央纪委监察网"
+    url: "http://www.ccdi.gov.cn/"
+    type: "html"
+    enabled: true
+   
+
+  - id: "audit"  # 审计署官网
+    name: "国家审计署"
+    url: "http://www.audit.gov.cn/"
+    type: "html"
+    enabled: true
+   
+
+  # 综合性替代源
+  - id: "china_news"  # 中国新闻网
+    name: "中国新闻网"
+    url: "http://www.chinanews.com/"
+    type: "html"
+    enabled: true
